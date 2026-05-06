@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden; /* Prevents scrollbars */
+}
+
+canvas {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 1000px;
+  display: block;
+  image-rendering: pixelated; /* Keeps your pixel art sharp */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Adds a nice depth effect */
+}
